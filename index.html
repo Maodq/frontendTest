@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo1</title>
+		<style type = "text/css">
+			#content1{
+				height: 1000px;
+				background-color: aqua;
+			}
+			#content2{
+				height: 1000px;
+				background-color: crimson;
+			}
+			#content3{
+				height: 1000px;
+				background-color: chartreuse;
+			}
+		</style>
+		
+	</head>
+	<body>
+<!-- 快捷写法：h1{$h1标签}*5 -->
+		<h1>h1标签</h1>
+		<h1>h2标签</h1>
+		<h1>h3标签</h1>
+		<h1>h4标签</h1>
+		<h1>h5标签</h1>
+		<h1>h6标签</h1>
+		<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1473836766,4030812874&fm=26&gp=0.jpg">
+		<img src="img/timg.gif" >
+<!-- 快捷写法：ul>li{新闻标题$}*5 
+无序列表-->
+		<ul>
+			<li>新闻标题1</li>
+			<li>新闻标题2</li>
+			<li>新闻标题3</li>
+			<li>新闻标题4</li>
+			<li>新闻标题5</li>
+		</ul>
+<!-- 有序列表：ol>li{新闻标题$}*5
+		 -->
+		 <ol>
+		 	<li>新闻标题1</li>
+		 	<li>新闻标题2</li>
+		 	<li>新闻标题3</li>
+		 	<li>新闻标题4</li>
+		 	<li>新闻标题5</li>
+		 </ol>	
+		 
+		 <a href="http://www.baidu.com">百度</a>
+		 
+<!-- a标签页面内部跳转（单页面应用）		 -->
+		<a href="#content1">第一部分</a>
+		<a href="#content2">第二部分</a>
+		<a href="#content3">第三部分</a>
+		
+		<p id = "content1">第一部分</p>
+		<p id = "content2">第二部分</p>
+		<p id = "content3">第三部分</p>
+		
+<!-- 自定义标签用style加标签名设置样式即可完成自定义标签的样式设计 -->
+
+<!-- 表单标签
+		属性：
+		1、action：将表单的数据提交至什么地址
+		2、提交的方法：get post
+ -->
+		<form action="" method = "post">
+			<input type="submit" value="登录">
+		</form>
+	</body>
+</html>
